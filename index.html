@@ -20,7 +20,8 @@
           extend: {
             colors: {
               brand: "#004c3f",
-              bgwhite: "#012970",
+              light: "#006553",
+              bgwhite: "#fcf6ed",
               text: "#212326",
             },
           },
@@ -34,14 +35,188 @@
         box-sizing: border-box;
         font-family: "Shopify Sans Web Medium", Arial, Helvetica, sans-serif;
       }
+      input {
+        outline: none;
+      }
     </style>
     <title>Shopify | Best Ecommerece Platform in India</title>
   </head>
-  <body>
-    <div class="mainContainer box-border overflow-x-hidden">
-      <h1 class="text-3xl font-bold">
-        The easiest way to sell online in India
-      </h1>
+  <body class="bg-bgwhite">
+    <div class="mainContainer overflow-x-hidden">
+      <nav class="flex justify-between mx-2">
+        <div><img width="120px" src="./assets/logo.png" alt="logog" /></div>
+        <div class="flex items-center">
+          <h1 class="mr-2 text-slate-600">Log in</h1>
+          <i class="fa-solid fa-bars text-lg"></i>
+        </div>
+      </nav>
+      <div class="mx-2">
+        <h1 class="mt-28 text-3xl font-semibold text-brand">
+          The easiest way to sell <br />
+          online in India
+        </h1>
+        <p class="mt-8 text-gray-700">
+          Try one of the most powerful platforms on the market for free. No
+          technical knowledge needed.
+        </p>
+        <div class="mt-5">
+          <input
+            class="py-3 px-4 border-2 border-solid rounded w-8/12"
+            type="text"
+            placeholder="Enter Your email address"
+          />
+          <button class="bg-light text-white px-4 py-3 rounded">
+            Try for free
+          </button>
+        </div>
+        <p class="text-xs text-gray-500 mt-3">
+          Try Shopify free for 14 days, no credit card required. By entering
+          your email, you agree to receive marketing emails from Shopify.
+        </p>
+        <div class="mx-3">
+          <video autoplay="true" width="450">
+            <source src="./assets/hero.webm" type="video/webm" />
+          </video>
+        </div>
+      </div>
+      <section class="bg-brand text-white px-3 py-12">
+        <h1 class="text-2xl mb-3">Bring your business online</h1>
+        <p class="mb-3">
+          Create an ecommerce website backed by powerful tools that help you
+          find customers, drive sales, and manage your day-to-day.
+        </p>
+        <a href="#" class="block mb-5 font-bold">Explore more examples -></a>
+        <div class="grid grid-cols-2">
+          <div class="block m-3">
+            <img src="./assets/01.webp" alt="" />
+            <div>
+              <h1 class="font-bold mt-2">FOOD & DRINK</h1>
+              <p>Blue Tokai</p>
+            </div>
+          </div>
+
+          <div class="block m-3">
+            <img src="./assets/02.webp" alt="" />
+            <div>
+              <h1 class="font-bold mt-2">JEWELRY</h1>
+              <p>Quirksmith</p>
+            </div>
+          </div>
+
+          <div class="block m-3">
+            <img src="./assets/03.webp" alt="" />
+            <div>
+              <h1 class="font-bold mt-2">ELECTRONICS</h1>
+              <p>Crossbeats</p>
+            </div>
+          </div>
+          <div class="block m-3">
+            <img src="./assets/04.webp" alt="" />
+            <div>
+              <h1 class="font-bold mt-2">BEAUTY</h1>
+              <p>Mcaffeine</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 class="text-2xl mt-5 mb-5">Take the best path forward</h1>
+          <div class="mb-5">
+            <i class="fa-solid fa-briefcase my-2 text-3xl"></i>
+            <h1 class="font-bold my-2">Start an online business</h1>
+            <p>
+              Create a business, whether you have got a fresh idea or are
+              looking for a new way to make money.
+            </p>
+          </div>
+          <div class="mb-5">
+            <i class="fa-solid fa-store my-2 text-3xl"></i>
+
+            <h1 class="font-bold my-2">Move your business online</h1>
+            <p>
+              Turn your retail store into an online store and keep serving
+              customers without missing a beat.
+            </p>
+          </div>
+          <div class="mb-5">
+            <i class="fa-brands fa-shopify my-2 text-3xl"></i>
+            <h1 class="font-bold my-2">Switch to Shopify</h1>
+            <p>
+              Bring your business to Shopify, no matter which ecommerce platform
+              you are currently using.
+            </p>
+          </div>
+          <div class="mb-5">
+            <i class="fa-solid fa-people-group my-2 text-3xl"></i>
+            <h1 class="font-bold my-2">Hire a Shopify expert</h1>
+            <p>
+              Get set up with the help of a trusted freelancer or agency from
+              the Shopify Experts Marketplace.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="pt-12 px-3 bg-white">
+        <h1 class="text-center text-2xl mb-2">
+          With you wherever you are going
+        </h1>
+        <p class="text-center text-gray-500 mb-12">
+          One platform with all the ecommerce and point of sale features you
+          need to start, run, and grow your business.
+        </p>
+        <div>
+          <h1 class="text-gray-700 text-2xl mb-3">Sell everywhere</h1>
+          <p class="text-gray-500 mb-12">
+            Use one platform to sell products to anyone, anywhere—in person with
+            Point of Sale and online through your website, social media, and
+            online marketplaces.
+          </p>
+          <a class="font-bold text-brand block mb-3" href=""
+            >Explore ways to sell -></a
+          >
+          <video autoplay="true" width="450">
+            <source
+              src="./assets/sell-animation-desktop-1b186d853b04bce6dbc12bb63bd5bc4bc1ff60cd1a06fd12f85261c8acc66d0a.webm"
+              type="video/webm"
+            />
+          </video>
+        </div>
+        <div class="mt-12">
+          <h1 class="text-gray-700 text-2xl mb-3">Market your business</h1>
+          <p class="text-gray-500 mb-12">
+            Take the guesswork out of marketing with built-in tools that help
+            you create, execute, and analyze digital marketing campaigns.
+          </p>
+          <a class="font-bold text-brand block mb-3" href=""
+            >Explore how to market your business -></a
+          >
+          <img src="./assets/shoes.webp" alt="" />
+        </div>
+        <div class="mt-12 pb-12">
+          <h1 class="text-gray-700 text-2xl mb-3">Manage everything</h1>
+          <p class="text-gray-500 mb-12">
+            Gain the insights you need to grow—use a single dashboard to manage
+            orders, shipping, and payments anywhere you go.
+          </p>
+          <a class="font-bold text-brand block mb-3" href=""
+            >Explore how to manage your business -></a
+          >
+          <img class="shadow-lg" src="./assets/dashboard.png" alt="" />
+        </div>
+      </section>
+      <section>
+        <h1>Explore more from Shopify in India</h1>
+        <div>
+          <img src="./assets/indian.webp" alt="" />
+          <h1>START</h1>
+          <h2>Launch your store with the help of a Shopify Expert</h2>
+          <p>
+            Find hundreds of experts from India ready to help you get your store
+            up and running, from choosing a theme to building a fully customized
+            site.
+          </p>
+          <a href="#">Browse Experts in India -></a>
+        </div>
+      </section>
     </div>
   </body>
 </html>
