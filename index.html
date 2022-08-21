@@ -43,13 +43,32 @@
   </head>
   <body class="bg-bgwhite">
     <div class="mainContainer overflow-x-hidden">
-      <nav class="fixed flex justify-between px-2 bg-white w-full">
-        <div><img width="120px" src="./assets/logo.png" alt="logog" /></div>
-        <div class="flex items-center">
-          <h1 class="mr-2 text-slate-600">Log in</h1>
-          <i class="fa-solid fa-bars text-lg"></i>
+      <!-- navbar start -->
+      <nav class="fixed flex justify-between px-2 py-3 bg-white w-full">
+        <div class="md:hidden">
+          <img width="120px" src="./assets/logo.png" alt="logog" />
+        </div>
+        <div class="flex items-center justify-between px-12 md:w-full">
+          <h1 class="mr-2 text-slate-600 md:hidden">Log in</h1>
+          <div class="hidden md:flex items-center">
+            <img width="120px" src="./assets/logo.png" alt="logog" />
+            <h1 class="mx-5 text-slate-600">Start</h1>
+            <h1 class="mr-5 text-slate-600">Sell</h1>
+            <h1 class="mr-5 text-slate-600">Market</h1>
+            <h1 class="mr-5 text-slate-600">Manage</h1>
+          </div>
+          <div class="hidden md:flex items-center">
+            <h1 class="mr-5 text-slate-600">Price</h1>
+            <h1 class="mr-5 text-slate-600">Learn</h1>
+            <h1 class="mr-5 text-slate-600">Log in</h1>
+            <button class="bg-light text-white px-4 py-3 rounded shadow-md">
+              Try for free
+            </button>
+          </div>
+          <i class="fa-solid fa-bars text-lg md:hidden"></i>
         </div>
       </nav>
+      <!-- navbar end -->
       <div class="mx-2">
         <h1 class="mt-28 text-3xl font-semibold text-brand">
           The easiest way to sell <br />
